@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #131921;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  margin: 0 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  background: #febd69;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  background: #232f3e;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  background: #e3e6e6;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Products */
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background: white;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+/* Footer */
+.footer {
+  background: #131921;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
